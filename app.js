@@ -1,3 +1,5 @@
-const age = prompt("How old are you?");
+const title = document.getElementById("title");
 
-console.log(isNaN());
+title.innerText = "Got you!";
+
+console.log(title.id);
