@@ -12,8 +12,6 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .hidden {

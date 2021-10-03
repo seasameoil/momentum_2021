@@ -1,1 +1,29 @@
+#todo-form {
+  margin-top: 370px;
+  z-index: 1;
+}
 
+#todo-form input {
+  border: none;
+  background: transparent;
+  border-bottom: solid 1px black;
+  font-size: 18px;
+  text-align: center;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+#todo-form input:focus {
+  outline: none;
+}
+
+#todo-list {
+  z-index: 1;
+  list-style: decimal-leading-zero;
+}
+
+#todo-list button {
+  margin-left: 20px;
+  background-color: transparent;
+  border: none;
+}
